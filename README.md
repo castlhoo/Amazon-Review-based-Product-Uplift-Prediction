@@ -728,15 +728,56 @@ Data columns (total 44 columns):
 ## 🔧 Machine Learning Pipeline
 
 ### Step 21: Feature Preprocessing for ML
-![image](https://github.com/user-attachments/assets/4017acce-ad30-4663-8620-d83ae75addf9)
-![image](https://github.com/user-attachments/assets/54f28f5f-1f81-44b7-ac47-0e3947fa9c2c)
-![image](https://github.com/user-attachments/assets/cc558de6-f388-4dec-8c8d-41fb151021e4)
-![image](https://github.com/user-attachments/assets/6d1d1d78-938a-46d0-9c40-2e50e4026cdf)
-![image](https://github.com/user-attachments/assets/4142785a-c611-48bc-baa5-fcb859986871)
-![image](https://github.com/user-attachments/assets/5988ff75-9b28-4cba-9c3c-860727f2ca82)
-![image](https://github.com/user-attachments/assets/c0ec4543-3306-49cc-af2a-f662236c9115)
-![image](https://github.com/user-attachments/assets/12620b2a-b6e5-4f5e-9dc8-159a0e4a9010)
+<table>
+<tr>
+<td width="50%">
 
+![Distribution Analysis 1](https://github.com/user-attachments/assets/4017acce-ad30-4663-8620-d83ae75addf9)
+
+</td>
+<td width="50%">
+
+![Distribution Analysis 2](https://github.com/user-attachments/assets/54f28f5f-1f81-44b7-ac47-0e3947fa9c2c)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+![Outlier Analysis 1](https://github.com/user-attachments/assets/cc558de6-f388-4dec-8c8d-41fb151021e4)
+
+</td>
+<td width="50%">
+
+![Outlier Analysis 2](https://github.com/user-attachments/assets/6d1d1d78-938a-46d0-9c40-2e50e4026cdf)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+![Model Performance 1](https://github.com/user-attachments/assets/4142785a-c611-48bc-baa5-fcb859986871)
+
+</td>
+<td width="50%">
+
+![Model Performance 2](https://github.com/user-attachments/assets/5988ff75-9b28-4cba-9c3c-860727f2ca82)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+![Feature Analysis](https://github.com/user-attachments/assets/c0ec4543-3306-49cc-af2a-f662236c9115)
+
+</td>
+<td width="50%">
+
+![Residual Analysis](https://github.com/user-attachments/assets/12620b2a-b6e5-4f5e-9dc8-159a0e4a9010)
+
+</td>
+</tr>
+</table>
 
 ```python
 # Check data types before preprocessing
@@ -789,14 +830,51 @@ for col in columns_to_check:
 ```
 
 ### Step 22: Outlier Detection and Removal
-![image](https://github.com/user-attachments/assets/9e54e0fc-dd00-4b30-ba30-b8c4db73ad58)
-![image](https://github.com/user-attachments/assets/b746e12f-5b00-4cca-bfd7-0db124ef5817)
-![image](https://github.com/user-attachments/assets/801324ef-8576-40c9-82e4-58e4cafe0434)
-![image](https://github.com/user-attachments/assets/c55edc16-6789-478f-bb5b-d5cbfbbe06be)
-![image](https://github.com/user-attachments/assets/1da916d7-c7c1-4c1b-8e53-5d0f8ada6255)
-![image](https://github.com/user-attachments/assets/969606ff-0b6d-404a-8ed1-c8b70f4328a7)
-![image](https://github.com/user-attachments/assets/093d5b91-6662-4deb-8db4-aa08e68cd61a)
+<table>
+<tr>
+<td width="50%">
 
+![Log Transformation Analysis](https://github.com/user-attachments/assets/9e54e0fc-dd00-4b30-ba30-b8c4db73ad58)
+
+</td>
+<td width="50%">
+
+![Distribution Comparison](https://github.com/user-attachments/assets/b746e12f-5b00-4cca-bfd7-0db124ef5817)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+![Outlier Detection](https://github.com/user-attachments/assets/801324ef-8576-40c9-82e4-58e4cafe0434)
+
+</td>
+<td width="50%">
+
+![Box Plot Analysis](https://github.com/user-attachments/assets/c55edc16-6789-478f-bb5b-d5cbfbbe06be)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+![Model Performance Metrics](https://github.com/user-attachments/assets/1da916d7-c7c1-4c1b-8e53-5d0f8ada6255)
+
+</td>
+<td width="50%">
+
+![Feature Importance](https://github.com/user-attachments/assets/969606ff-0b6d-404a-8ed1-c8b70f4328a7)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+![Final Model Validation](https://github.com/user-attachments/assets/093d5b91-6662-4deb-8db4-aa08e68cd61a)
+
+</td>
+</tr>
+</table>
 ```python
 # 2. Outlier Analysis using Box Plots
 graphlist = amazon[[
