@@ -875,6 +875,7 @@ for col in columns_to_check:
 </td>
 </tr>
 </table>
+
 ```python
 # 2. Outlier Analysis using Box Plots
 graphlist = amazon[[
